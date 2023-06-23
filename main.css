@@ -1,0 +1,371 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+svg {
+  fill: yellow;
+}
+h2 {
+  text-transform: uppercase;
+  color: #fff;
+}
+h1 {
+  color: #fff;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+p {
+  color: #fff;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+h1 {
+  text-transform: uppercase;
+}
+/* heroheader style starts */
+.heroheader {
+  background: url("https://i.trse.ru/2020/07/OW9e.jpeg");
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+}
+.heroheader .container {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+.heroheader .container h1:nth-child(-n + 1) {
+  margin-top: 450px;
+  position: relative;
+}
+.heroheader .container h1:nth-child(-n + 1)::before {
+  content: "";
+  position: absolute;
+  width: 300px;
+  left: -310px;
+  bottom: 10px;
+  background-color: #fff;
+  padding-bottom: 10px;
+}
+.heroheader .container h1:nth-child(odd) {
+  color: #fff;
+  font-size: 60px;
+}
+.heroheader .container h1:nth-child(even) {
+  color: yellow;
+  font-size: 60px;
+}
+/* heroheader style ends */
+
+/* land section starts  */
+.land {
+  background: url("https://images01.nicepage.com/a1389d7bc73adea1e1c1fb7e/0be4978e237b5b47a6267ff4/222.png");
+  background-color: black;
+  background-size: cover;
+  min-height: 100vh;
+}
+.land .container {
+  display: flex;
+  justify-content: space-between;
+  gap: 130px;
+}
+.land .container .left {
+  width: 65%;
+}
+.land .container .left h1:nth-child(odd) {
+  color: #fff;
+  font-size: 30px;
+  position: relative;
+}
+.land .container .left h1:nth-child(even) {
+  color: yellow;
+  font-size: 40px;
+  margin: 15px auto;
+}
+.land .container .left h1:nth-child(-n + 1) {
+  margin-top: 70px;
+}
+.land .container .left h1:nth-child(-n + 1)::before {
+  content: "";
+  position: absolute;
+  width: 230px;
+  height: 7px;
+  background-color: #fff;
+  top: 22px;
+  bottom: 0;
+  right: 0px;
+  left: 70px;
+}
+.land .container .left p {
+  margin-top: 100px;
+  font-size: 20px;
+  width: 100%;
+  text-align: justify;
+}
+.land .container .right {
+  width: 50%;
+}
+.land .container .right p {
+  margin-top: 60px;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+.land .container .right a {
+  font-size: 20px;
+  color: #fff;
+  border-bottom: 2px solid yellow;
+}
+/* land section ends  */
+
+/* services section starts */
+.services {
+  background-color: black;
+}
+.services .container {
+  display: flex;
+  flex-direction: column;
+}
+.services .container .top {
+  text-align: end;
+}
+.services .container .top h2 {
+  font-size: 35px;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  position: relative;
+}
+.services .container .top h2::before {
+  content: "";
+  position: absolute;
+  width: 300px;
+  height: 7px;
+  background-color: #fff;
+  top: 25px;
+  right: 90px;
+}
+.services .container .top h1 {
+  font-size: 60px;
+  color: yellow;
+  margin-bottom: 100px;
+}
+.services .container .bottom {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+.services .container .bottom .card {
+  width: 20%;
+}
+.services .container .bottom .card .icon svg {
+  margin-bottom: 15px;
+}
+.services .container .bottom .card .content h1 {
+  margin-bottom: 10px;
+}
+.services .container .bottom .card .content p {
+  width: 90%;
+  font-size: 18px;
+  line-height: 25px;
+}
+/* services section ends */
+
+/* safe section starts */
+.safe {
+  background: url("https://i.pinimg.com/originals/dd/ea/0f/ddea0fb41bf388d2c071d1a282e77883.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+.safe .container {
+  display: flex;
+  flex-direction: column;
+}
+.safe .container h2 {
+  font-size: 30px;
+  margin-top: 440px;
+  position: relative;
+  margin-bottom: 7px;
+}
+.safe .container h2::before {
+  content: "";
+  position: absolute;
+  width: 370px;
+  height: 7px;
+  background-color: #fff;
+  top: 20px;
+  right: 0px;
+  bottom: 0;
+  left: 135px;
+}
+.safe .container h1 {
+  font-size: 65px;
+  color: yellow;
+  margin-bottom: 10px;
+}
+.safe .container a {
+  font-size: 20px;
+  display: block;
+  width: 83px;
+  border-bottom: 1px solid yellow;
+}
+
+/* safe section ends */
+
+/* new section starts */
+.new {
+  background: url("https://images01.nicepage.com/a1389d7bc73adea1e1c1fb7e/25a7682a99fb5f9ba5685469/toyotaLandCruiserv82015interiortme015afull_tcm3046502788.png");
+  background-color: black;
+  background-size: cover;
+  background-position: center center;
+  height: 150vh;
+}
+.new .container {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  padding-top: 50px;
+}
+.new .container h2 {
+  position: relative;
+}
+.new .container h2::before {
+  content: "";
+  position: absolute;
+  width: 400px;
+  height: 7px;
+  background-color: #fff;
+  top: 20px;
+  right: 0;
+  bottom: 0;
+  left: -410px;
+}
+.new .container h1:nth-child(n + 2) {
+  color: yellow;
+  font-size: 50px;
+}
+/* new section ends */
+
+/* speed section starts */
+.speed {
+  background-color: black;
+}
+.speed .container {
+  display: flex;
+  align-items: start;
+  text-align: start;
+
+  flex-direction: column;
+}
+.speed .container .top h2 {
+  margin-top: 70px;
+  margin-bottom: 15px;
+  font-size: 25px;
+  position: relative;
+}
+.speed .container .top h2::before {
+  content: "";
+  position: absolute;
+  width: 300px;
+  height: 10px;
+  background-color: #fff;
+  top: 14px;
+  bottom: 0;
+  right: 0;
+  left: 220px;
+}
+.speed .container .top h1 {
+  font-size: 50px;
+  color: yellow;
+  margin-bottom: 100px;
+}
+.speed .container .bottom img {
+  height: 200px;
+  width: 30%;
+}
+.speed .container .bottom {
+  justify-content: space-between;
+}
+.pictures {
+  display: flex;
+  flex-wrap: wrap;
+}
+.pictures img {
+  width: 50%;
+  height: 500px;
+  object-fit: cover;
+}
+/* speed section ends */
+
+/* contact section starts */
+.contact {
+  background: linear-gradient(50deg, rgba(0, 0, 0, 0.63), rgba(0, 0, 0, 0.662)),
+    url("https://t1-cms-1.images.toyota-europe.com/toyotaone/euen/toyota-Land-Cruiser-v8-2015-interior-tme-013-a-full_tcm-11-502784.jpg");
+  background-size: cover;
+}
+.contact .container {
+  display: flex;
+  padding-top: 80px;
+
+  justify-content: space-evenly;
+}
+.contact .container .left h1 {
+  font-size: 50px;
+  color: yellow;
+  font-family: "Roboto", sans-serif;
+}
+.contact .container .left h4:nth-child(even) {
+  margin-top: 20px;
+}
+.contact .container .left h4 {
+  color: #fff;
+}
+
+.contact .container .left h3 {
+  color: #fff;
+}
+.contact .container .left h3:nth-child(even) {
+  margin-top: 20px;
+}
+.contact .container .left .icon svg {
+  margin-top: 20px;
+  fill: #fff;
+}
+.contact .container .right {
+  display: flex;
+  flex-direction: column;
+}
+.contact .container .right h1 {
+  font-size: 35px;
+  font-family: "Roboto Mono", monospace;
+  padding-bottom: 20px;
+}
+.contact .container .right input {
+  margin-bottom: 5px;
+  font-size: 15px;
+  padding: 7px;
+  background: none;
+}
+.contact .container .right input:nth-child(4) {
+  height: 70px;
+}
+.contact .container .right button {
+  background-color: yellow;
+  width: 70px;
+  padding: 7px;
+}
+
+/* contact section ends */
+
+footer {
+  background-color: grey;
+  padding: 30px;
+  text-align: center;
+}
+footer h1 {
+  font-size: 18px;
+  color: black;
+}
